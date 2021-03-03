@@ -40,4 +40,14 @@ The last update to Google Cloud Shell [significantly extended](https://github.co
 
 ## Content
 
-TODO
+Note that for Status:
+
+- WIP means that it is still work in prgress
+- Beta means it should be usable, but may lack polish
+- Ready means it is ready for use.
+
+| Lab                                             | Status    | Link                      |
+|-------------------------------------------------|-----------|---------------------------|
+| Installing VSCode (Code Server)                 | Beta      | [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fhkitsmallpotato%2FHandsOn_Fullstack_Clojure.git&cloudshell_tutorial=install_vscode_codeserver%2Ftutorial.md&shellonly=true) |
+| Install Didact VSCode Extension                 | Beta      | [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fhkitsmallpotato%2FHandsOn_Fullstack_Clojure.git&cloudshell_tutorial=install_didact_vscode_extension%2Ftutorial.md) |
+| Install Clojure and Clojurescript with Toolings | Beta      | [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fhkitsmallpotato%2FHandsOn_Fullstack_Clojure.git&cloudshell_tutorial=install_clojure_clojurescript_toolings%2Ftutorial.md&shellonly=true) |

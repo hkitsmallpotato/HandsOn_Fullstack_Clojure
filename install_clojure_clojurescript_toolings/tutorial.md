@@ -8,10 +8,32 @@ In this tutorial, you will setup your enviornment for Clojure and Clojurescript 
 
 **Difficulty**: Easy
 
+## Sketch of Roadmap
+
+TODO
+
+- Starting from Clojure 1.9, an [official command line client](https://clojure.org/guides/getting_started) system is introduced. (The usage guide is [here](https://clojure.org/guides/deps_and_cli))
+
 ## Install sdkman for Java version management
 
 ### Background
 
+After Oracle's change of Java policy, there are many Java distributions. This [post](https://stackoverflow.com/questions/52431764/difference-between-openjdk-and-adoptium-adoptopenjdk) summarizes the situation.
+
+We will use [sdkman](https://sdkman.io/) to manage Java versions. Be sure to read through each of its pages/documentation. Later we will use the command `sdk list java` to see a lists of available versions. The most relevant ones to us are:
+
+- AdoptOpenJDK is the dominant open source option. The sub-versions are:
+  - Hotspot (hs)
+  - Eclipse OpenJ9 (j9)
+  - [Upstream](https://adoptopenjdk.net/upstream.html) (open)
+- Graalvm
+- Java.net (i.e. [Oracle OpenJDK](http://jdk.java.net)) is Oracle's build of OpenJDK
+
+As for the version number:
+
+- Version 8 is the newest-old stable version. It has been there for a long time before, and is still in use by many legacy applications.
+- Version 11 is the modern LTS (Long Term Support) version. It has accumulated [new platform and language features](https://dzone.com/articles/a-quick-catch-up-before-java-11), such as the module system, G1 garbage collector, as well as futher refining functional programming facilities first introduced in Java 8.
+- Version 15 is the latest version.
 
 ### Installation
 
